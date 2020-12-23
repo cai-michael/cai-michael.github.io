@@ -46,17 +46,18 @@ function Home() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hi, I'm Michael Cai :)</p>
+        <p>I'm still working on this trying to learn React! Come back later!</p>
       </header>
     </div>
   );
 }
 
 function Resume() {
-  return <h1>I have an education I swear</h1>;
+  return <h1>I have an diploma I swear</h1>;
 }
 
 function Contact() {
-  return <h2>Email me: mrcai@asu.edu</h2>;
+  return <h2>If you ask really nicely maybe we can talk</h2>;
 }
 
 export default App;
