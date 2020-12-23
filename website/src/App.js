@@ -46,7 +46,7 @@ function Home() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hi, I'm Michael Cai :)</p>
-        <p>I'm still working on this trying to learn React and Github Workflows! Come back later!</p>
+        <p>I'm still working on this trying to learn React and Github Workflows/Pages! Come back later!</p>
       </header>
     </div>
   );
