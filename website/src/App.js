@@ -4,10 +4,9 @@ import { GlobalStyles } from "./global";
 import { theme } from "./theme";
 import { Burger, Menu } from "./components";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { useOnClickOutside } from './hooks';
+import { useOnClickOutside } from "./hooks";
 import logo from "./images/raccoon-image-1.png";
 import "./App.css";
-
 
 function App() {
   const node = useRef();
@@ -20,8 +19,8 @@ function App() {
 
       <Router>
         <div ref={node}>
-          <Burger open={open} setOpen={setOpen}/>
-          <Menu open={open} setOpen={setOpen}/>
+          <Burger open={open} setOpen={setOpen} />
+          <Menu open={open} setOpen={setOpen} />
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
@@ -46,9 +45,7 @@ function Home() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hi, I'm Michael Cai :)
-        </p>
+        <p>Hi, I'm Michael Cai :)</p>
       </header>
     </div>
   );

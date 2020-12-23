@@ -1,5 +1,4 @@
-// global.js
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   html, body {
@@ -20,4 +19,4 @@ export const GlobalStyles = createGlobalStyle`
     text-rendering: optimizeLegibility;
     background: ${({ theme }) => theme.primaryDark};
     color: ${({ theme }) => theme.primaryLight};
-  }`
+  }`;
