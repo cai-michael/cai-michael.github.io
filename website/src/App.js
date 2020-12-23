@@ -24,11 +24,11 @@ function App() {
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
-            <Route path="/projects">
-              <About />
-            </Route>
             <Route path="/resume">
               <Resume />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
             <Route path="/">
               <Home />
@@ -51,21 +51,12 @@ function Home() {
   );
 }
 
-function About() {
-  return <h1>About Or Something</h1>;
-}
-
 function Resume() {
-  return <h2>Woooaaaahhhhhh!!!</h2>;
+  return <h1>I have an education I swear</h1>;
 }
 
-function showHamburger() {
-  var x = document.getElementById("hamburgerOptions");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+function Contact() {
+  return <h2>Email me: mrcai@asu.edu</h2>;
 }
 
 export default App;
