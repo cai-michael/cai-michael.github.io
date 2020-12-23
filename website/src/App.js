@@ -24,11 +24,11 @@ function App() {
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
-            <Route path="/about">
+            <Route path="/projects">
               <About />
             </Route>
-            <Route path="/users">
-              <Users />
+            <Route path="/resume">
+              <Resume />
             </Route>
             <Route path="/">
               <Home />
@@ -55,7 +55,7 @@ function About() {
   return <h1>About Or Something</h1>;
 }
 
-function Users() {
+function Resume() {
   return <h2>Woooaaaahhhhhh!!!</h2>;
 }
 
