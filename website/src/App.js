@@ -44,8 +44,8 @@ function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hi, I'm Michael Cai :)</p>
+        <img src={logo} className="App-logo" alt="A spinning raccoon" />
+        <h1>Hi, I'm Michael Cai :)</h1>
         <p>I'm still working on this trying to learn React and Github Workflows/Pages! Come back later!</p>
       </header>
     </div>
