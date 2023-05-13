@@ -1,13 +1,8 @@
-<!-- Add Nav Bar at some point -->
-<nav></nav>
+<!-- Navigation Bar -->
+<nav>
+  <button class="link" (click)="clickButton('')">Home</button>
+  <button class="link" (click)="clickButton('/resume')">resume</button>
+</nav>
 
-<!-- Containers header content: name, fun title, icon, brief description -->
-<header>
-<div class="container">
-  <h1>Michael Cai</h1>
-  <h3>Full-time Backend Developer and Raccoon Enthusiast</h3>
-  <img src="https://avatars.githubusercontent.com/u/31701749?v=4" alt="Michael Cai's Github icon">
-</div>
-</header>
-
-<!-- Give overview of projects and experience (resume should be separate page) -->
+<!-- Content that comes from routing -->
+<router-outlet></router-outlet>
