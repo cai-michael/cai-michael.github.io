@@ -16,19 +16,18 @@ body, html {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    padding: 0;
 }
 
 p {
     color:rgb(232, 232, 232);
     font-weight: lighter;
     font-size: 120%;
-    padding-right: calc(8px + 1.5625vw);
-    padding-left: calc(8px + 1.5625vw);
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
+    text-align: left;
     width: 40%;
-    min-width: 320px;
+    min-width: 280px;
     font-family: "Atkinson Hyperlegible";
 }
 
@@ -37,7 +36,7 @@ h1, h2 {
     margin-left: auto;
     margin-right: auto;
     width: 45%;
-    min-width: 320px;
+    min-width: 280px;
 }
 
 h3, h4 {

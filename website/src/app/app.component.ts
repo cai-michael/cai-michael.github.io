@@ -12,9 +12,9 @@ export class AppComponent {
   constructor(private router: Router) {
   }
 
-  isActiveTab(route: String) {
+  isActiveNavButton(route: String) {
     if (this.router.url == route) {
-      return ["active"]
+      return ["active-nav-button"]
     } else {
       return []
     }
