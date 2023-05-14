@@ -46,7 +46,7 @@ jobs:
         with:
           name: page
           # Upload artifact doesn't use working directory
-          path: './website/dist'
+          path: './website/dist/website'
           if-no-files-found: error
   deploy:
     needs: build
@@ -64,7 +64,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./website
+          path: .
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
