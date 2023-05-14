@@ -42,12 +42,11 @@ jobs:
         run: npm ci
       - name: Build Project
         run: npm run build --if-present
-      - run: ls > files.txt
-      - run: cat files.txt
       - uses: actions/upload-artifact@v3
         with:
           name: page
-          path: './dist/website'
+          # Upload artifact doesn't use working directory
+          path: './website/dist'
           if-no-files-found: error
   deploy:
     needs: build
