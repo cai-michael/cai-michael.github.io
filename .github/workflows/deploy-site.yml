@@ -45,12 +45,12 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: page
-          path: dist
+          path: './dist/website'
           if-no-files-found: error
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: 'dist'
+          path: './dist/website'
   deploy:
     needs: build
     environment:
@@ -64,6 +64,10 @@ jobs:
           path: .
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: .
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
