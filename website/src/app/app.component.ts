@@ -11,9 +11,13 @@ export class AppComponent {
   
   constructor(private router: Router) {
   }
-  
-  clickButton(path: string) {
-        this.router.navigate([path]);
-    } 
+
+  isActiveTab(route: String) {
+    if (this.router.url == route) {
+      return ["active"]
+    } else {
+      return []
+    }
+  }
 }
 

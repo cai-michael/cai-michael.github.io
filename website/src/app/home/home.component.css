@@ -1,0 +1,16 @@
+.github-icon {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 500%;
+}
+
+h2 {
+    color: rgb(232, 232, 232);
+    font-weight: lighter;
+    font-size: 150%;
+}

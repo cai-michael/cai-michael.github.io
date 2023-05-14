@@ -1,8 +1,9 @@
 <!-- Navigation Bar -->
-<nav>
-  <button class="link" (click)="clickButton('')">Home</button>
-  <button class="link" (click)="clickButton('/resume')">resume</button>
-</nav>
+<div class="navbar">
+  <a class="nav-button" [ngClass]="isActiveTab('/')" [routerLink]="''">Home</a>
+  <a class="nav-button" [ngClass]="isActiveTab('/resume')" [routerLink]="'/resume'">Resume</a>
+</div>
 
-<!-- Content that comes from routing -->
+<!-- Content From Routing -->
+<!-- Learning Reference: https://www.makeuseof.com/routing-angular-basic/-->
 <router-outlet></router-outlet>

@@ -1,0 +1,30 @@
+.nav-button {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 10%;
+    min-width: 6em;
+    font-size: 125%;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgb(72, 191, 90);
+    transition: 1s;
+}
+
+.nav-button:hover {
+    background-color: rgb(188, 188, 188);
+    transition: 1s;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
