@@ -3,11 +3,11 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-summary',
   templateUrl: './summary.component.html',
-  styleUrls: ['./summary.component.css']
+  styleUrls: ['./summary.component.css'],
 })
 export class SummaryComponent {
   @Input()
-  header:string = ""
+  header: string = '';
   @Input()
-  image:string = ""
+  image: string = '';
 }

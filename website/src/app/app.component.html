@@ -1,7 +1,12 @@
 <!-- Navigation Bar -->
 <div class="navbar">
   <a class="nav-button" [ngClass]="isActiveNavButton('/')" [routerLink]="''">Home</a>
-  <a class="nav-button" [ngClass]="isActiveNavButton('/resume')" [routerLink]="'/resume'">Resume</a>
+  <a
+    class="nav-button"
+    [ngClass]="isActiveNavButton('/resume')"
+    [routerLink]="'/resume'"
+    >Resume</a
+  >
 </div>
 
 <!-- Content From Routing -->

@@ -13,14 +13,11 @@ import { SummaryComponent } from './summary/summary.component';
     AppComponent,
     ResumeComponent,
     HomeComponent,
-    SummaryComponent
+    SummaryComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppModule { }
+export class AppModule {}
