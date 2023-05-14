@@ -43,7 +43,7 @@ jobs:
       - name: Build Project
         run: npm run build --if-present
       - run: ls > files.txt
-      - run: echo files.txt
+      - run: cat files.txt
       - uses: actions/upload-artifact@v3
         with:
           name: page
