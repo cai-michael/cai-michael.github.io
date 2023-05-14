@@ -10,7 +10,7 @@ defaults:
     working-directory: ./website
     
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
