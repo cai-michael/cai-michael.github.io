@@ -9,6 +9,6 @@ export class SummaryComponent {
   @Input() header: string = '';
   @Input() title: string = '';
   @Input() image: string = '';
-  @Input() description: string = '';
   @Input() dates: string = '';
+  @Input() description: string = '';
 }
