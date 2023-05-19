@@ -9,8 +9,9 @@ import { Component } from '@angular/core';
 export class ResumeComponent {
   currentDateString(startDate: String) {
     const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-    var currentMonth = month[Date.prototype.getMonth()];
-    var currentYear = Date.prototype.getMonth();
+    var currentDate = new Date();
+    var currentMonth = month.at(currentDate.getMonth());
+    var currentYear = currentDate.getFullYear();
     var dates = `${startDate} - ${currentMonth} ${currentYear} (Present)`
     return dates;
   }

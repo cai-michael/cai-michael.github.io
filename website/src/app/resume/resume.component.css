@@ -5,9 +5,33 @@ h1 {
 
 h2 {
   color: rgb(255, 255, 255);
+  font-size: 300%;
 }
 
-h4 {
+h3, h4 {
   color: rgb(255, 255, 255);
   opacity: 50%;
+}
+
+.first {
+  margin: 5% !important;
+}
+
+.summaries-container {
+  margin: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 0;
+}
+
+.summary {
+  margin: 3%;
+}
+
+.top-separator {
+  width: 40%;
+}
+.bottom-separator {
+  width: 20%;
 }
