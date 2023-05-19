@@ -24,7 +24,6 @@
     "@fontsource/open-sans": "^4.5.14",
     "@fontsource/raleway": "^4.5.12",
     "rxjs": "~7.8.0",
-    "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
@@ -40,6 +39,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "ts-loader": "^9.4.2",
+    "tslib": "^2.5.0",
     "typescript": "~5.0.2"
   }
 }

@@ -6,8 +6,9 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./summary.component.css'],
 })
 export class SummaryComponent {
-  @Input()
-  header: string = '';
-  @Input()
-  image: string = '';
+  @Input() header: string = '';
+  @Input() title: string = '';
+  @Input() image: string = '';
+  @Input() dates: string = '';
+  @Input() description: string = '';
 }

@@ -1,21 +1,65 @@
 <div class="container">
-  <h2>Michael Cai</h2>
-  <h4>.NET Developer</h4>
+  <h1>Michael Cai</h1>
+  <h2>.NET Developer</h2>
   <h1>Resume</h1>
 </div>
 
-<div class="container">
-  <h2>Experience</h2>
-  <app-summary header="My Header"><h1>Big</h1></app-summary>
-  <app-summary [header]="myComplicatedFunction()"><h1>Big</h1></app-summary>
+<div class="summaries-container first">
+  <h2>Employment</h2>
+  <hr class="top-separator">
+  <app-summary class="summary"
+    header="AVEVA"
+    title="Software Developer I"
+    image=""
+    [dates]="currentDateString('March 2022')"
+    description=".NET | Service Fabric | Kubernetes | Azure | ADO Pipelines | Databases">
+  </app-summary>
+  <hr class="bottom-separator">
 </div>
 
-<div class="container">
+<!--Add space here-->
+
+<div class="summaries-container">
   <h2>Education</h2>
-  <!--Add components for each of my items of experience :)-->
+  <hr class="top-separator">
+  <app-summary class="summary"
+    header="MS in Computer Science"
+    title="Arizona State University"
+    image=""
+    dates="January 2021 - December 2021"
+    description="Thesis: An Application of Attention for the Prediction of TCR-Epitope Binding Affinity">
+    <h3>Notable Classes:
+      <ul style="list-style-type: none">
+        <li>Algorithms in Computational Biology</li>
+        <li>Computational Social Choice</li>
+        <li>Multimedia and Web Databases</li>
+        <li>Distributed Databases</li>
+        <li>Software Project, Process, and Quality Management</li>
+        <li></li>
+      </ul>
+    </h3>
+  </app-summary>
+  <app-summary 
+    header="BS in Computer Science"
+    title="Arizona State University & Barrett, The Honors College"
+    image=""
+    dates="August 2017 - December 2020"
+    description="Honors Thesis: Prediction of Binding Affinity of T cell Receptor and Antigens using Deep Neural Networks">
+  </app-summary>
+  <hr class="bottom-separator">
 </div>
 
-<div class="container">
+<!--Add space here-->
+
+<div class="summaries-container">
   <h2>Projects and Publications</h2>
-  <!--Add components for each of my items of experience :)-->
+  <hr class="top-separator">
+  <app-summary class="summary"
+    header="ATM-TCR: TCR-epitope binding affinity prediction using a multi-head self-attention model"
+    title="Frontiers in Immunology"
+    image=""
+    dates="July 2022"
+    description="">
+  </app-summary>
+  <hr class="bottom-separator">
 </div>
