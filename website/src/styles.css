@@ -1,10 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-/* Move these to angular.json styles list later*/
-@import "~@fontsource/atkinson-hyperlegible/index.css";
-@import "~@fontsource/raleway/index.css";
-@import "~@fontsource/lexend/index.css";
-
 body,
 html {
   background-color: #000000;
