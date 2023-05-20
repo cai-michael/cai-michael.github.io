@@ -14,3 +14,12 @@ h2 {
   font-weight: lighter;
   font-size: 150%;
 }
+
+b {
+  font-weight: 700;
+  /* A fun way of making the text a gradient, probably delete this later :) */
+  background-image: linear-gradient(to right top, yellow, green);
+  background-clip: text;
+  color:transparent;
+  
+}

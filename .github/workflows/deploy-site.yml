@@ -38,6 +38,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+          # Setup node doesn't use working directory
           cache-dependency-path: '**/package-lock.json'
       - name: Install Packages
         run: npm ci
