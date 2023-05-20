@@ -6,6 +6,7 @@ h1 {
 h2 {
   color: rgb(255, 255, 255);
   font-size: 300%;
+  margin-top: 10px;
 }
 
 h3, h4 {
@@ -14,11 +15,11 @@ h3, h4 {
 }
 
 .first {
-  margin: 5% !important;
+  margin: 7.5% !important;
 }
 
 .summaries-container {
-  margin: 10%;
+  margin: 12.5%;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
