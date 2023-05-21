@@ -8,7 +8,8 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'Michael Cai';
-
+  currentYear = new Date().getFullYear();
+  
   constructor(private router: Router) {}
 
   isActiveNavButton(route: String) {

@@ -34,3 +34,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.copyright {
+  opacity: 60%;
+  text-align: center;
+}
