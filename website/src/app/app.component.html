@@ -1,12 +1,17 @@
 <!-- Navigation Bar -->
 <div class="navbar">
-  <a class="nav-button" [ngClass]="isActiveNavButton('/')" [routerLink]="''">Home</a>
+  <a 
+    class="nav-button" 
+    [ngClass]="isActiveNavButton('/')" 
+    [routerLink]="''">
+    Home
+  </a>
   <a
     class="nav-button"
     [ngClass]="isActiveNavButton('/resume')"
-    [routerLink]="'/resume'"
-    >Resume</a
-  >
+    [routerLink]="'/resume'">
+    Resume
+  </a>
 </div>
 
 <!-- Content From Routing -->
@@ -14,6 +19,14 @@
 <router-outlet></router-outlet>
 
 <!-- Links to Other Sites -->
+<div class="links-bar">
+  <a href="https://github.com/cai-michael">
+    <img class="logo-link" src="assets/github-logo-white.png">
+  </a>
+  <a href="https://www.linkedin.com/in/michael-r-cai/">
+    <img class="logo-link" src="assets/linkedin-logo-white.png" >
+  </a>
+</div>
 
 <!-- Copyright -->
 <p class="copyright">&copy; {{currentYear}} Michael Cai</p>
