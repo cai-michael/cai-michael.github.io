@@ -30,7 +30,19 @@
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(248, 248, 248);
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-link {
+  width: 3em !important;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.links-bar {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
