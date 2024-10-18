@@ -9,7 +9,8 @@ h2 {
   margin-top: 10px;
 }
 
-h3, h4 {
+h3,
+h4 {
   color: rgb(255, 255, 255);
   opacity: 90%;
 }
