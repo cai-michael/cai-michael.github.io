@@ -1,12 +1,13 @@
 <div class="container">
   <h1 class="name">Michael Cai</h1>
-  <h2 class="job-title">.NET Developer</h2>
+  <h2 class="job-title">Raccoon Enthusiast, DevOps Engineer, and Backend Developer</h2>
   <!--<h1 style="margin-top: 150px;">Resume</h1>-->
+  <button (click)="downloadResume()">Download Resume as PDF</button>
 </div>
 
 <!--Employment-->
 <div class="summaries-container first">
-  <h2>Employment</h2>
+  <h2 class="section">Employment</h2>
 
   <hr class="top-separator" />
 
@@ -14,7 +15,7 @@
     class="summary"
     header="BitFocus"
     title="Tools & Automation Engineer"
-    image=""
+    image="/assets/bitfocus-logo-white.png"
     [dates]="currentDateString('October 2024')"
     description="CI/CD Processes | Pipelines "
   >
@@ -24,7 +25,7 @@
     class="summary"
     header="AVEVA"
     title="R&D Member of Technical Staff II"
-    image=""
+    image="/assets/aveva-logo-white.png"
     dates="March 2022 - October 2024"
     description=".NET | Kubernetes | Service Fabric | Azure | ADO Pipelines | Bicep | Cosmos DB"
   >
@@ -44,7 +45,7 @@
 
 <!--Education-->
 <div class="summaries-container">
-  <h2>Education</h2>
+  <h2 class="section">Education</h2>
   <hr class="top-separator" />
   <app-summary
     class="summary"
@@ -52,16 +53,16 @@
     title="Arizona State University"
     image=""
     dates="January 2021 - December 2021"
-    description="Thesis: An Application of Attention for the Prediction of TCR-Epitope Binding Affinity"
+    description="Thesis: An Application of Attention for the Prediction of TCR-Epitope Binding Affinity
+
+    Notable Coursework
+    
+    Algorithms in Computational Biology
+    Computational Social Choice
+    Multimedia and Web Databases
+    Distributed Databases
+    Software Project, Process, and Quality Management"
   >
-    <h3>Notable Classes</h3>
-    <h4>
-      Algorithms in Computational Biology<br />
-      Computational Social Choice<br />
-      Multimedia and Web Databases<br />
-      Distributed Databases<br />
-      Software Project, Process, and Quality Management<br />
-    </h4>
   </app-summary>
   <app-summary
     header="BS in Computer Science"
@@ -77,15 +78,15 @@
 
 <!--Projects and Publications-->
 <div class="summaries-container">
-  <h2>Projects and Publications</h2>
+  <h2 class="section">Projects and Publications</h2>
   <hr class="top-separator" />
   <app-summary
     class="summary"
     header="Context-Aware Amino Acid Embedding Advances Analysis of TCR-Epitope Interactions"
-    title="bioRxiv (Preprint)"
+    title="eLife"
     image=""
-    dates="April 2023"
-    description="Author"
+    dates="April 2024"
+    description="https://doi.org/10.7554/eLife.88837.2"
   >
   </app-summary>
   <app-summary
@@ -94,7 +95,7 @@
     title="Frontiers in Immunology"
     image=""
     dates="July 2022"
-    description="First Author"
+    description="https://doi.org/10.3389/fimmu.2022.893247"
   >
   </app-summary>
   <hr class="bottom-separator" />

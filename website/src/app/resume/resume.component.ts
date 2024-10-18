@@ -15,4 +15,8 @@ export class ResumeComponent {
     var dates = `${startDate} - ${currentMonth} ${currentYear} (Present)`
     return dates;
   }
+
+  downloadResume() {
+    window.open("/assets/michael-cai-resume.pdf", '_blank');
+  }
 }

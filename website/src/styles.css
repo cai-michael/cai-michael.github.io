@@ -20,12 +20,12 @@ h2 {
   font-family: "Raleway";
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
-  min-width: 280px;
 }
 
 h3,
 h4 {
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Atkinson Hyperlegible";
 }
 
@@ -36,9 +36,6 @@ p {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  width: 45%;
-  min-width: 280px;
-  max-width: 35rem;
   font-family: "Atkinson Hyperlegible";
 }
 

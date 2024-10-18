@@ -1,10 +1,13 @@
-<h1>{{ header }}</h1>
-<h2>{{ title }}</h2>
-<h2>{{ dates }}</h2>
-<h3>{{ description }}</h3>
+<html>
+  <div class="vertical">
+    <h1 *ngIf="image===''">{{ header }}</h1>
+    <img class="corp-logo" [src]="image" *ngIf="image" />
+    
+    <h2>{{ title }}</h2>
+    <h2>{{ dates }}</h2>
+    <h3>{{ description }}</h3>
+    <h3>{{ additionaltext }}</h3>
 
-
-<img [src]="image" *ngIf="image" />
-
-<ng-content></ng-content>
-
+    <ng-content></ng-content>
+  </div>
+</html>

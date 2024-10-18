@@ -11,4 +11,5 @@ export class SummaryComponent {
   @Input() image: string = '';
   @Input() dates: string = '';
   @Input() description: string = '';
+  @Input() additionaltext: string = ''
 }
