@@ -24,5 +24,10 @@ b {
 }
 
 p {
-  width: 45%;
+  width: 45rem;
+  @media (width <= 800px) {
+    padding-left: 1vw;
+    max-width: 95vw;
+    width: 90%;
+  }
 }
