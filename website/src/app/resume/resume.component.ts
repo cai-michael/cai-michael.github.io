@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-resume',
   templateUrl: './resume.component.html',
   styleUrls: ['./resume.component.css'],
+  standalone: false,
 })
 export class ResumeComponent {
   currentDateString(startDate: String) {
