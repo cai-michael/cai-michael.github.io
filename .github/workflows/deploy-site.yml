@@ -49,7 +49,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: './website/dist/website/'
+          path: './website/dist/website/browser'
   deploy:
     needs: build
     environment:
