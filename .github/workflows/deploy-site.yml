@@ -47,9 +47,9 @@ jobs:
       - name: Run Tests
         run: npm test -- --watch=false --browsers=ChromeHeadless
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
-          path: './website/dist/website'
+          path: './website/dist/website/'
   deploy:
     needs: build
     environment:
@@ -61,4 +61,4 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
